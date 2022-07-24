@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import imageCompression from "browser-image-compression";
 import { Card } from 'react-bootstrap';
 

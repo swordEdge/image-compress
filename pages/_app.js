@@ -1,12 +1,13 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.css";
-import '../styles/globals.css'
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
-}, []);
+  }, []);
+  
   return (
     <>
     <Head>
@@ -17,4 +18,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default MyApp;
