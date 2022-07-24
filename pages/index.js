@@ -19,10 +19,6 @@ export default function Home() {
     setUploadImage(true);
   };
 
-  // changeValue = e => {
-  //   this.setState({ [e.target.name]: e.target.value });
-  // };
-
   const click = e => {
     e.preventDefault();
 
