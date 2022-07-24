@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import imageCompression from "browser-image-compression";
-import {Card} from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 export default function Home() {
 
